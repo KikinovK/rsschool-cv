@@ -35,8 +35,6 @@ function inArray(array1,array2){
   return result.sort()
 }
 ```
-
-
 ***
 ### Skill Set
 * __Languages:__ JavaScript, HTML, CSS, SCSS
@@ -46,7 +44,15 @@ function inArray(array1,array2){
 * __IDE:__ Visual Studio Code
 ***
 ### Work Experience
-
+ * __[Memory_Pair_Game](https://kikinovk.github.io/Memory_Pair_Game/)__ - qualifying task of 'Kottans-frontend' course
+    * 2020
+    * used technologys: JavaScript, HTML, CSS
+ * __[help-point.net](http://helppoint.surge.sh/reviews.html)__ -development of the "front-end" part
+    * 2019
+    * used technologys: HTML, SCSS, Bootstrap 3, JavaScript, jQuery, PNG-sprite, Gulp
+* __[bambinifamilyclub.com](http://www.bambinifamilyclub.com/)__
+    * 2018
+    * used technologys: HTML, CSS, jQuery, SVG, Gulp
 ***
 ### Education
 
