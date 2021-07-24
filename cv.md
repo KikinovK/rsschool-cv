@@ -55,6 +55,7 @@ function inArray(array1,array2){
     * used technologys: HTML, CSS, jQuery, SVG, Gulp
 ***
 ### Education
-
+  East Ukrainian Volodymyr Dahl National University
+  Specialist, System engineer
 ***
 ### Language
