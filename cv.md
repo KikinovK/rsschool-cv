@@ -7,7 +7,9 @@ E-mail: kikinov.k@gmail.com
 
 Residence: Dnipro, Ukraine
 
-[Telegram](https://t.me/KonstantinKikinov) [LinkedIn](https://www.linkedin.com/in/konstantin-kikinov-505387b3/)
+[Telegram](https://t.me/KonstantinKikinov)
+
+[LinkedIn](https://www.linkedin.com/in/konstantin-kikinov-505387b3/)
 
 ***
 
@@ -16,7 +18,11 @@ Residence: Dnipro, Ukraine
 
 ***
 ### Skill Set
-
+* __Languages:__ JavaScript, HTML, CSS, SCSS
+* __Frameworks:__  jQuery, Bootstrap 3/4,Foundation email
+* __Template Engine:__ Pug
+* __Automation:__ npm, Gulp, Webpack, PostCSS
+* __IDE:__ Visual Studio Code
 ***
 ### Work Experience
 
