@@ -14,7 +14,28 @@ Residence: Dnipro, Ukraine
 ***
 
 ***
-#### Code examples (to pass the auto-test requirements)
+### Code examples
+My account in `codewars.com` - https://www.codewars.com/users/Kikinov_Kosty
+
+###### sample code:
+```
+function inArray(array1,array2){
+  let result = [];
+  for ( j = 0; j < array1.length; j++){
+    if (array1[j]){
+      const reqElem1 = new RegExp(array1[j]);
+      for (i = 0; i < array2.length; i++){
+        if (reqElem1.test(array2[i])){
+         result.push(array1[j]);
+         break
+        }
+      }
+    }
+  }
+  return result.sort()
+}
+```
+
 
 ***
 ### Skill Set
