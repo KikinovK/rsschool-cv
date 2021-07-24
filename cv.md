@@ -56,6 +56,12 @@ function inArray(array1,array2){
 ***
 ### Education
   East Ukrainian Volodymyr Dahl National University
+
   Specialist, System engineer
 ***
 ### Language
+English - pre-intermediate
+
+Ukranian - native
+
+Russian - native
