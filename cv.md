@@ -42,6 +42,7 @@ function inArray(array1,array2){
 * __Template Engine:__ Pug
 * __Automation:__ npm, Gulp, Webpack, PostCSS
 * __IDE:__ Visual Studio Code
+
 ***
 ### Work Experience
  * __[Memory_Pair_Game](https://kikinovk.github.io/Memory_Pair_Game/)__ - qualifying task of 'Kottans-frontend' course
@@ -53,11 +54,13 @@ function inArray(array1,array2){
 * __[bambinifamilyclub.com](http://www.bambinifamilyclub.com/)__
     * 2018
     * used technologys: HTML, CSS, jQuery, SVG, Gulp
+
 ***
 ### Education
   East Ukrainian Volodymyr Dahl National University
 
   Specialist, System engineer
+
 ***
 ### Language
 English - pre-intermediate
