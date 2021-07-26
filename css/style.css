@@ -1,3 +1,11 @@
+root {
+  --primary-color: #fdfefe;
+  --secondary-color: #2b538a;
+  --primary-text-color: #898076;
+  --secondary-text-color: #6f839e;
+  --emphasis-color: #bec2c5;
+}
+
 body {
   margin: 0;
 }
