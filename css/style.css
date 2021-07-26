@@ -3,6 +3,46 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   width: 1024px;
   margin: 0 auto;
+}
+
+.header {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  padding: 20px 20px 10px 250px;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.section {
+  padding: 20px 20px 10px 30px;
+}
+
+.contact {
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: -100px;
+
+  border-radius: 50%;
+}
+
+.contact__block {
+  margin-left: 220px;
 }
