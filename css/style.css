@@ -1,0 +1,186 @@
+:root {
+  --primary-color: #fdfefe;
+  --secondary-color: #2b538a;
+  --primary-text-color: #898076;
+  --secondary-text-color: #6f839e;
+  --emphasis-color: #bec2c5;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-text-color);
+
+  background-color: var(--emphasis-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  padding: 28px 20px 10px 300px;
+
+  background-color: var(--secondary-color);
+}
+
+.header h1, .header h2{
+  color: var(--primary-color);
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+
+  background-color: var(--primary-color);
+}
+
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  padding: 20px 20px 10px 60px;
+
+  color: var(--primary-color);
+
+  background-color: var(--secondary-color);
+}
+
+footer .list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section {
+  padding: 20px 20px 10px 60px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item--inline {
+  display: inline-block;
+}
+
+.item--inline:after {
+  content: ",";
+}
+
+.item--inline:nth-last-child(1):after {
+  content: " ";
+}
+
+.contact {
+  position: relative;
+}
+
+.contact .icon {
+  margin-right: 0.5em;
+}
+
+.avatar {
+  position: absolute;
+  top: -100px;
+
+  border-radius: 50%;
+  border: 5px solid var(--emphasis-color);
+}
+
+.contact__block {
+  margin-left: 250px;
+}
+
+figure {
+  margin-left: 0;
+}
+
+figcaption {
+  font-size: 1.2em;
+  color: var(--secondary-text-color);
+}
+
+a {
+  color: var(--secondary-text-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--secondary-color);
+}
+
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  /* padding: 1em; */
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* border-radius: 50%; */
+}
+
+
+
+.icon--rsschool {
+  width: 10em;
+  height: 4em;
+
+  background-image: url("../img/rs_school_js.svg");
+}
+
+.icon--github {
+  width: 4em;
+  height: 4em;
+
+  background-image: url("../img/github.svg");
+}
+
+.icon--phone {
+  background-image: url("../img/phone.svg");
+}
+
+.icon--mail {
+  background-image: url("../img/mail.svg");
+}
+
+.icon--location {
+  background-image: url("../img/location.svg");
+}
+
+.icon--telegram {
+  background-image: url("../img/telegram.svg");
+}
+
+.icon--linkedin {
+  background-image: url("../img/linkedin.svg");
+}
+
+.text {
+  display: inline-block;
+
+  vertical-align: middle;
+}

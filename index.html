@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>CV Konstantin Kikinov</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h2>Konstantin Kikinov</h2>
+      <h1>Front-End Engineer</h1>
+    </header>
+    <main class="main">
+      <aside class="section contact">
+        <img class="avatar" src="./img/avatar_800.jpg" alt="avatar" height="200" width="200">
+        <ul class="list contact__block">
+          <li class="item">
+
+            <a href="tel:+380951103984"><span class="icon icon--phone"></span><span class="text">+380951103984</span></a>
+          </li>
+          <li class="item">
+
+            <a href="mailto:kikinov.k@gmail.com"><span class="icon icon--mail"></span><span class="text">kikinov.k@gmail.com</span></a>
+          </li>
+          <li class="item">
+            <span class="icon icon--location"></span><span class="text">Dnipro, Ukraine</span>
+          </li>
+          <li class="item">
+            <a href="https://t.me/KonstantinKikinov" target="_blank"><span class="icon icon--telegram"></span><span class="text">KonstantinKikinov</span></a>
+          </li>
+          <li class="item">
+            <a href="https://www.linkedin.com/in/konstantin-kikinov-505387b3/" target="_blank"><span class="icon icon--linkedin"></span><span class="text">konstantin-kikinov-505387b3</span></a>
+          </li>
+        </ul>
+      </aside>
+      <section class="section code_examples">
+        <h3>Code examples</h3>
+        <p>My account in <a href="https://www.codewars.com/users/Kikinov_Kosty">codewars.com</a></p>
+        <h6>sample code</h6>
+        <pre>
+          <code>
+  function inArray(array1,array2){
+    let result = [];
+    for ( j = 0; j &lt; array1.length; j++){
+      if (array1[j]){
+        const reqElem1 = new RegExp(array1[j]);
+        for (i = 0; i &lt; array2.length; i++){
+          if (reqElem1.test(array2[i])){
+            result.push(array1[j]);
+            break
+          }
+        }
+      }
+    }
+    return result.sort()
+  }
+          </code>
+        </pre>
+      </section>
+      <section class="section skill_set">
+        <h3>Skill Set</h3>
+        <ul class="list">
+          <li class="item">
+            <figure>
+              <figcaption>Languages:</figcaption>
+              <ul class="list">
+                <li class="item item--inline"><span class="text">JavaScript</span></li>
+                <li class="item item--inline"><span class="text">HTML</span></li>
+                <li class="item item--inline"><span class="text">CSS</span></li>
+                <li class="item item--inline"><span class="text">SCSS</span></li>
+              </ul>
+            </figure>
+          </li>
+          <li class="item">
+            <figure>
+              <figcaption>Frameworks:</figcaption>
+              <ul class="list">
+                <li class="item item--inline"><span class="text">jQuery</span></li>
+                <li class="item item--inline"><span class="text">Bootstrap 3/4</span></li>
+                <li class="item item--inline"><span class="text">Foundation email</span></li>
+              </ul>
+            </figure>
+          </li>
+          <li class="item">
+            <figure>
+              <figcaption>Template Engine:</figcaption>
+              <ul class="list">
+                <li class="item item--inline"><span class="text">Pug</span></li>
+              </ul>
+            </figure>
+          </li>
+          <li class="item">
+            <figure>
+              <figcaption>Automation:</figcaption>
+              <ul class="list">
+                <li class="item item--inline"><span class="text">npm</span></li>
+                <li class="item item--inline"><span class="text">Gulp</span></li>
+                <li class="item item--inline"><span class="text">Webpack</span></li>
+                <li class="item item--inline"><span class="text">PostCss</span></li>
+              </ul>
+            </figure>
+          </li>
+          <li class="item">
+            <figure>
+              <figcaption>IDE:</figcaption>
+              <ul class="list">
+                <li class="item item--inline"><span class="text">Visual Studio Code</span></li>
+              </ul>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section class="section">
+        <h3>Work Experience</h3>
+        <ul class="list">
+          <li class="item">
+            <ul class="list">
+              <li class="item">
+                <p>
+                  <a href="https://kikinovk.github.io/Memory_Pair_Game/" target="_blank"><span class="text">Memory Pair Game</span></a>
+                  - qualifying task of 'Kottans-frontend' course
+                </p>
+              </li>
+              <li class="item"><span class="text">2020</span></li>
+              <li class="item"><span class="text">used technologys: JavaScript, HTML, CSS</span></li>
+            </ul>
+          </li>
+          <li class="item">
+            <ul class="list">
+              <li class="item"><p><a href="http://helppoint.surge.sh/reviews.html" target="_blank"><span class="text">help-point.net</span></a> - development of the "front-end" part</p></li>
+              <li class="item"><span class="text">2019</span></li>
+              <li class="item"><span class="text">used technologys: HTML, SCSS, Bootstrap 3, JavaScript, jQuery, PNG-sprite, Gulp</span></li>
+            </ul>
+          </li>
+          <li class="item">
+            <ul class="list">
+              <li class="item"><p><a href="http://www.bambinifamilyclub.com/"><span class="text">bambinifamilyclub.com</span></a></p></li>
+              <li class="item"><span class="text"></span>2018</li>
+              <li class="item"><span class="text">used technologys: HTML, CSS, jQuery, SVG, Gulp</span></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="section education">
+        <h3>Education</h3>
+        <span class="text">East Ukrainian Volodymyr Dahl National University - </span>
+        <span class="text">Specialist, System engineer</span>
+      </section>
+      <section class="section language">
+        <h3>Language</h3>
+        <ul class="list">
+          <li class="item"><span class="text">English - pre-intermediate</span></li>
+          <li class="item"><span class="text">Ukranian - native</span></li>
+          <li class="item"><span class="text">Russian - native</span></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="list">
+        <li class="item"><a href="https://github.com/KikinovK" target="_blank"><span class="icon icon--github"></span></a></li>
+        <li class="item"><span class="text">Created 2021</span></li>
+        <li class="item"><a href="https://rs.school/js/" target="_blank"><span class="icon icon--rsschool"></span></a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
