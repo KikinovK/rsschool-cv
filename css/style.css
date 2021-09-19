@@ -1,8 +1,10 @@
 :root {
   --primary-color: #fdfefe;
   --secondary-color: #2b538a;
+  --secondary-color-filter: invert(23%) sepia(80%) saturate(743%) hue-rotate(181deg) brightness(98%) contrast(84%);
   --primary-text-color: #898076;
   --secondary-text-color: #6f839e;
+  --secondary-text-color-filter: invert(53%) sepia(8%) saturate(1230%) hue-rotate(175deg) brightness(94%) contrast(91%);
   --emphasis-color: #bec2c5;
   --top: 20px;
   --bottom: 10px;
@@ -106,6 +108,8 @@ footer .list {
 
 .contact .icon {
   margin-right: 0.5em;
+
+  filter: var(--secondary-text-color-filter);
 }
 
 .avatar {
@@ -135,12 +139,20 @@ figcaption {
 }
 
 a {
+  display: inline-block;
   color: var(--secondary-text-color);
 }
 
 a:hover,
 a:focus {
   color: var(--secondary-color);
+
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.contact a:hover .icon {
+  filter: invert(23%) sepia(80%) saturate(743%) hue-rotate(181deg) brightness(98%) contrast(84%);
 }
 
 .icon {
