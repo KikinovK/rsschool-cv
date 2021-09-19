@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--secondary-color);
 }
 
+pre {
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -197,6 +201,7 @@ a:focus {
 
 .icon--linkedin {
   background-image: url("../img/linkedin.svg");
+  transform: translateY(-17%);
 }
 
 .text {
