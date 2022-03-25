@@ -12,7 +12,7 @@ Residence: Dnipro, Ukraine
 [LinkedIn](https://www.linkedin.com/in/konstantin-kikinov-505387b3/)
 
 ***
-
+Web development has been my hobby for the last three years. I hope this becomes my job. I am looking for offers for a junior or trainee position
 ***
 ### Code examples
 My account in `codewars.com` - https://www.codewars.com/users/Kikinov_Kosty
